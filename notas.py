@@ -4,12 +4,12 @@ def agregar_nota(lista, texto):
 
 
 def mostrar_notas(lista):
-    if len(lista) == 0:
-        print("No hay notas guardadas")
-    else:
+    if len(lista) != 0:
         print("\nLISTA DE NOTAS")
         for i, nota in enumerate(lista):
             print(f"{i + 1}. {nota}")
+    else:
+        print("No hay notas guardadas")
 
 
 def eliminar_nota(lista):
