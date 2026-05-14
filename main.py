@@ -25,5 +25,5 @@ while True:
         print("Programa finalizado")
         break
 
-    else:
+    else:#opción default
         print("incorrecta")
